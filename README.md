@@ -16,4 +16,5 @@ Paris Olympics step by step Process
   This list contains the names of CSV files expected to be present in the dataset. These files contain the actual data that will be loaded into Pandas DataFrames.
 6. __Load CSV Files into DataFrames__:
   This loop iterates over each CSV file in the csv_files list, constructs the full file path, and uses Pandas' read_csv function to load the CSV file into a DataFrame.
-  Each DataFrame is stored in a dictionary named dataframes, with the key being the base name of the CSV file (without the .csv extension). This allows easy access to the datasets by their    respective table names.
+  Each DataFrame is stored in a dictionary named dataframes, with the key being the base name of the CSV file (without the .csv extension). This allows easy access to the datasets by their    
+	respective table names.
